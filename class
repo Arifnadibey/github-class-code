@@ -1,21 +1,21 @@
-class Car:
-    color = ""
-    brand = ""
+class Bilgisayar:
+    isletimsistemi = ""
+    sürüm=""
 
-    def stop(self):
-        print("Bu araba durduruldu!")
-    def start(self):
-        print("Bu araba çalıştırıldı!")
+    def open(self):
+        print("Bu bilgisayar açıldı")
+    def close(self):
+        print("Bu bilgisayar kapatıldı")
     def info(self):
-        print(self.color,self.brand)
+        print(self.isletimsistemi,self.sürüm)
         
 
-car1 = Car()
-car1.color="Blue"
-car1.brand="BMW"
-car1.info()
+pc = Bilgisayar()
+pc.isletimsistemi="Windows"
+pc.sürüm="11"
+pc.info()
 
-car2 = Car()
-car2.color="Red"
-car2.brand="Audi"
-car2.info()
+pc2 = Bilgisayar()
+pc2.isletimsistemi="Pardus"
+pc2.sürüm="25"
+pc2.info()
